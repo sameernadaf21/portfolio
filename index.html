@@ -13,14 +13,14 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experiance</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
+    <nav id="hamburger-nav"> 
         <div class="logo">Sameer Nadaf</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
@@ -30,7 +30,7 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experiance</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -38,14 +38,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Sameer nadaf profile picture">
+            <img src="./assets/me.png" alt="Sameer nadaf profile picture" class="me">
         </div>
         <div class="section__text">
             <p class="section__text__p1">hello i'm </p>
             <h1 class="title">Sameer Nadaf</h1>
             <p class="section__text__p2">Student at KLE TECH</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/SAMEER_NADAF.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div> 
             <div class="socials-container">
@@ -58,7 +58,7 @@
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
-        <div class="section-conatiner">
+        <div class="section-container">
             <div class="section__pic-container">
                 <img src="/assets/about-pic.png" alt="profile picture" class="about-pic">
             </div>
@@ -67,19 +67,21 @@
                     <div class="details-container">
                         <img src="/assets/experience.png" alt="Experience-icon" class="icon">
                         <h3>Experiance</h3>
-                        <p>2+ years <br>Frontend Development</p>
+                        <p>No <br>Experiance</p>
                     </div>
                     <div class="details-container">
                         <img src="/assets/education.png" alt="Education-icon" class="icon">
                         <h3>Education</h3>
-                        <p>2+ years <br>Frontend Development</p>
+                        <p>KLE Technological University<br>Hubli</p>
                     </div>
                 </div>
                 <div class="text-conatiner">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quibusdam ullam laudantium, nesciunt id amet maiores adipisci dolores, sint incidunt, perspiciatis quod animi officia reiciendis rerum voluptas accusantium dolorum officiis. Quae dolorem temporibus facilis exercitationem consectetur nisi voluptatem explicabo eum. Perspiciatis sit ex aspernatur voluptate consequatur vel aperiam. Id, culpa?</p>
+                    <p style="font-size: 0.76rem;">I'm currently pursuing my 5th semester in engineering, specializing in Computer Science and Artificial Intelligence. Apart from my academic pursuits, I have a diverse set of interests that keep me engaged. I'm an avid sports enthusiast, enjoying both cricket and basketball. In my free time, I like to experiment with cooking, and I'm quite the reader. My passion for technology led me to explore coding, and I've had the opportunity to work on some exciting projects, such as creating a gesture-controlled bot, a payment machine, and a line-following bot. These experiences have honed my skills and deepened my interest in the field of AI and robotics.</p>
                 </div>
             </div>
         </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+  
     </section>
     <script src="script.js"></script>
 </body>
